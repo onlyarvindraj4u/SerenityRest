@@ -42,7 +42,7 @@ public class GetMethodDetails {
 		
 	}
 	
-	@Test
+	//@Test
 	public void failedTestCase() {
 		
 		SerenityRest.given()

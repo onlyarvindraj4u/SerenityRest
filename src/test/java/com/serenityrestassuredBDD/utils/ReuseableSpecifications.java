@@ -37,7 +37,7 @@ public class ReuseableSpecifications {
 		resSpecBuilder= new ResponseSpecBuilder();
 		resSpecBuilder.expectHeader("Content-type", "application/json; charset=utf-8");
 		resSpecBuilder.expectHeader("Transfer-Encording", "chunked");
-		resSpecBuilder.expectResponseTime(lessThan(5L),TimeUnit.SECONDS);
+		resSpecBuilder.expectResponseTime(lessThan(10L),TimeUnit.SECONDS);
 		
 		responseSpecification=resSpecBuilder.build();
 		return responseSpecification;

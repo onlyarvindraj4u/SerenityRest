@@ -47,7 +47,7 @@ public class FirstSerenityTest {
 		
 	}
 	
-	@Test
+	//@Test
 	public void failedTestCase() {
 		
 		SerenityRest.given()
@@ -59,32 +59,32 @@ public class FirstSerenityTest {
 		
 	}
 	
-	@Pending
-	@Test
+	//@Pending
+	//@Test
 	public void pendingTest() {
 		
 	}
 	
-	@Manual
-	@Test
+	//@Manual
+	//@Test
 	public void manualTest() {
 		
 	}
 	
-	@Ignore
-	@Test
+	//@Ignore
+	//@Test
 	public void ignoreTest() {
 		
 	}
 	
-	@Test
+	//@Test
 	public void errorTest() {
 		
 		System.out.println("this is error test:"+(5/0));
 		
 	}
 	
-	@Test
+	//@Test
 	public void fileDoesNotExist() throws FileNotFoundException {
 		
 		File file= new File("e://file.txt");
