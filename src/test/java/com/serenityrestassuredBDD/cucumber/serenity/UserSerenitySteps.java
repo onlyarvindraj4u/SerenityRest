@@ -12,10 +12,6 @@ import io.restassured.response.ValidatableResponse;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 
-/**
- * @author India
- *
- */
 public class UserSerenitySteps {
 	
 	@Step("Creating the user with all manadatory details title:{0}, author:{1}, id:{2}")

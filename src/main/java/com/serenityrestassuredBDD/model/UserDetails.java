@@ -3,10 +3,7 @@
  */
 package com.serenityrestassuredBDD.model;
 
-/**
- * @author India
- *
- */
+
 public class UserDetails {
 	
 	private int id;

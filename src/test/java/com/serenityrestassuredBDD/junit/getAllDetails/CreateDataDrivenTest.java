@@ -12,7 +12,7 @@ import net.thucydides.core.annotations.Title;
 import net.thucydides.junit.annotations.Concurrent;
 import net.thucydides.junit.annotations.UseTestDataFrom;
 
-@Concurrent(threads="4x")
+//@Concurrent(threads="4x")
 @UseTestDataFrom("testdata/userDetails.csv")
 @RunWith(SerenityParameterizedRunner.class)
 public class CreateDataDrivenTest extends BaseTest{

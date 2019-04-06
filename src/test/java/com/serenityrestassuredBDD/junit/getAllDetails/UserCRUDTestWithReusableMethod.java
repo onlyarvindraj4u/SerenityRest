@@ -47,7 +47,7 @@ public class UserCRUDTestWithReusableMethod extends BaseTest{
 	@Test
 	public void test001() {
 		steps.createUser(title, author, id)
-				.spec(ReuseableSpecifications.getGenericResponseSpec())
+				//.spec(ReuseableSpecifications.getGenericResponseSpec())
 				.statusCode(201)
 				.log().all();
 	}
@@ -74,7 +74,7 @@ public class UserCRUDTestWithReusableMethod extends BaseTest{
 	@Test
 	public void test004() {
 		steps.deleteTheUserDetails(id)
-			.spec(ReuseableSpecifications.getGenericResponseSpec())
+			//.spec(ReuseableSpecifications.getGenericResponseSpec())
 			.statusCode(404)
 			.log().all();
 	}

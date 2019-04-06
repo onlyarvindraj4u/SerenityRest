@@ -42,7 +42,7 @@ public class GetMethodDetails {
 		
 	}
 	
-	//@Test
+	/*//@Test
 	public void failedTestCase() {
 		
 		SerenityRest.given()
@@ -51,6 +51,6 @@ public class GetMethodDetails {
 				.then()
 				.statusCode(500)
 				.log().all();
-	}
+	}*/
 	
 }

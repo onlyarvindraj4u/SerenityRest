@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.serenityrestassuredBDD.junit.allTypesTest;
 
 import java.io.File;
@@ -18,11 +15,6 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Manual;
 import net.thucydides.core.annotations.Pending;
-
-/**
- * @author India
- *
- */
 
 @RunWith(SerenityRunner.class)
 public class FirstSerenityTest {
@@ -47,7 +39,7 @@ public class FirstSerenityTest {
 		
 	}
 	
-	//@Test
+	/*//@Test
 	public void failedTestCase() {
 		
 		SerenityRest.given()
@@ -57,9 +49,9 @@ public class FirstSerenityTest {
 				.statusCode(500)
 				.log().all();
 		
-	}
+	}*/
 	
-	//@Pending
+	/*//@Pending
 	//@Test
 	public void pendingTest() {
 		
@@ -90,11 +82,6 @@ public class FirstSerenityTest {
 		File file= new File("e://file.txt");
 		FileReader fr= new FileReader(file);
 		
-	}
-	
-	
-	
-	
-	
+	}*/
 	
 }
