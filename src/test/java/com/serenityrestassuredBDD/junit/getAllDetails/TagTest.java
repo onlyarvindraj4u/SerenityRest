@@ -52,7 +52,7 @@ public class TagTest {
 			}
 		)
 	
-	@Title("This test validate the status code is 200 for GET request--Negative test")
+	@Title("This test validate the status code is 200 for GET request")
 	@Test
 	public void verifyIfStatusCodeIs200() {
 		
